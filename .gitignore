@@ -1,0 +1,138 @@
+# ============================================
+# C++
+# ============================================
+# Compiled objects
+*.o
+*.obj
+*.pch
+*.gch
+*.slo
+*.lo
+
+# Precompiled Headers
+*.pch
+*.gch
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.lai
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug / Release dirs
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+build/
+Build/
+bin/
+lib/
+out/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.pdb
+*.ilk
+*.exp
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# ============================================
+# CMake
+# ============================================
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+
+# CMake build dirs (common names)
+cmake-build-*/
+build-*/
+[Bb]uild/
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ============================================
+# IDEs / Editors
+# ============================================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# ============================================
+# Logs / Temp
+# ============================================
+*.log
+*.tmp
+*.temp
