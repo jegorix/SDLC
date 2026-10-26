@@ -1,0 +1,14 @@
+digraph Context {
+ graph [bgcolor="#10151f", pad=.35, ranksep=.85, nodesep=.6, fontname="DejaVu Sans", label="INVESTLAB • КОНТЕКСТНАЯ МОДЕЛЬ (SysMLv2)", labelloc=t, fontsize=21, fontcolor="#eaf1ff"];
+ node [shape=box, style="rounded,filled", fillcolor="#202c3e", color="#4b668a", fontcolor="#e8f2ff", fontname="DejaVu Sans", fontsize=13, margin=".25,.20"];
+ edge [color="#7f9cc9", fontcolor="#b3c7df", fontname="DejaVu Sans", fontsize=10, penwidth=1.7];
+ investor [label="Пользователь\n(исследователь)",fillcolor="#274e67"];
+ app [label="InvestLab\nmacOS • C++ • Desktop",fillcolor="#1c4d61",penwidth=2];
+ api [label="Внешний сервис\nисторических котировок"];
+ db [label="SQLite\nпортфели и история"];
+ engine [label="Модуль расчётов\nBuy & Hold / DCA / SMA / RSI"];
+ investor -> app [label="параметры / результаты"];
+ app -> api [label="запрос / котировки"];
+ app -> db [label="чтение / сохранение"];
+ app -> engine [label="параметры / расчёт"];
+}
