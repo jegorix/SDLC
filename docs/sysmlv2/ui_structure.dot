@@ -1,0 +1,16 @@
+digraph UI {
+ graph [bgcolor="#10151f", pad=.35, ranksep=.56, nodesep=.58, fontname="DejaVu Sans", label="INVESTLAB • СТРУКТУРА ИНТЕРФЕЙСА (SysMLv2)", labelloc=t, fontsize=19, fontcolor="#eaf1ff"];
+ node [shape=box, style="rounded,filled", fillcolor="#1d2a3b", color="#51769f", fontcolor="#e8f2ff", fontname="DejaVu Sans", fontsize=12, margin=".23,.20"];
+ edge [color="#719bd0", arrowsize=.7];
+ app [label="InvestLabDesktop",fillcolor="#13596a"];
+ setup [label="PortfolioSetupScreen\nНастройка портфеля",fillcolor="#244962"];
+ results [label="SimulationResultsScreen\nРезультаты",fillcolor="#244962"];
+ history [label="HistoryScreen\nИстория",fillcolor="#244962"];
+ app -> setup; app -> results; app -> history;
+ setup_ui [label="Активы и доли\nПериод / стратегия\nЗапуск / ошибки"];
+ results_ui [label="Показатели доходности\nГрафик капитала\nТаблица сделок"];
+ history_ui [label="Список расчётов\nОткрытие результата"];
+ setup -> setup_ui; results -> results_ui; history -> history_ui;
+ {rank=same; setup; results; history}
+ {rank=same; setup_ui; results_ui; history_ui}
+}
