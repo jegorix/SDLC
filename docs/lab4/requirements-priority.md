@@ -12,7 +12,9 @@
 | F06 | SQLite persistence & history | REQ-FUNC-012/013, REQ-REL-001 | 20 | 7 | MVP |
 | F07 | Summary metrics & equity chart | REQ-FUNC-014/015 | 20 | 6 | MVP |
 | F08 | SMA strategy | REQ-FUNC-008 | 30 | 7 | MVP |
-| F09 | RSI strategy | REQ-FUNC-009 | 30 | 7 | MVP |
+| F09 | RSI strategy | REQ-FUNC-009 | 50 | 7 | Future |
 | F10 | Extended summary, QA & release | REQ-FUNC-016, REQ-SEC-001, REQ-PORT-001 | 10 | 8 | MVP |
 
 **Шкала:** 10 — критично; 20 — важно; 30 — желательно; 40 — опционально; 50 — минимальный приоритет, возможно отложить.
+
+**CR-001:** RSI / F09 перенесён в будущую версию, оценка 7 дней сохраняется, приоритет изменён с 30 на 50.
